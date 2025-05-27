@@ -40,7 +40,7 @@ jobs:
 
       # 5. Run MLflow project
       - name: Run mlflow project
-        run: mlflow run MLproject --env-manager=local
+        run: mlflow run LATIHAN-CI/MLproject --env-manager=local
 
       # 6. Install and configure Git LFS
       - name: Setup Git LFS
